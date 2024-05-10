@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "clone-4890a"
-  }
+    "default": "challenge-41b28",
+    "Development": "challenge-41b28"
+  },
+  "targets": {},
+  "etags": {}
 }

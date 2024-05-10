@@ -14,12 +14,13 @@ const Checkout = () => {
             <img className='checkout__ad' src="https://m.media-amazon.com/images/G/31/img24/April/SF/SF_PC_1._SX1500_QL85_.jpg" alt=""></img>
         
         <div>
-             <h3>Hello,{user.email}</h3>
+             <h3>Hello</h3>
             <h2 className="checkout__title">
                 Your Shopping Basket
             </h2>
           {basket.map(item=>(
             <CheckoutProduct 
+            key={item.id}
               id={item.id}
               title={item.title}
               image={item.image}
